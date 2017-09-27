@@ -17,6 +17,7 @@ import com.libsys.book.ui.BookTypeUI;
 import com.libsys.book.ui.BookinfoUI;
 import com.libsys.borrow.ui.BorrowBackUI;
 import com.libsys.manager.pojo.Manager;
+import com.libsys.manager.ui.LibraryUI;
 import com.libsys.manager.ui.ManagerUI;
 import com.libsys.reader.ui.ReaderUI;
 import com.libsys.reader.ui.ReadertypeUI;
@@ -130,6 +131,12 @@ public class MainUI extends JFrame{
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				new ManagerUI();
+			}
+		});
+		i62.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				new LibraryUI();
 			}
 		});
 		i63.addActionListener(new ActionListener(){
